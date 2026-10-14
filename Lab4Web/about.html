@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana - About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html" class="active">About</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Tentang Saya</h2>
+                    <img src="https://dummyimage.com/150/1f5faa/fff.png" alt="Foto Profil">
+                    <p>Halo! Saya adalah seorang pengembang web pemula yang sedang belajar membangun antarmuka web yang bersih, responsif, dan fungsional.</p>
+                </article>
+                <hr class="divider" />
+                <article class="entry">
+                    <h2>Portfolio & Proyek</h2>
+                    <p>Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/428bca/fff.png" alt="Project 1" class="image-circle">
+                            <h3>Web Desain</h3>
+                            <p>Desain layout halaman landing page interaktif.</p>
+                        </div>
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/428bca/fff.png" alt="Project 2" class="image-circle">
+                            <h3>Aplikasi Web</h3>
+                            <p>Pengembangan sistem manajemen data sederhana.</p>
+                        </div>
+                        <div class="box">
+                            <img src="https://dummyimage.com/120/428bca/fff.png" alt="Project 3" class="image-circle">
+                            <h3>Sistem Informasi</h3>
+                            <p>Perancangan basis data dan alur kerja aplikasi.</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Text</h3>
+                    <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
